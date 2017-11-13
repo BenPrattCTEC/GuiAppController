@@ -1,11 +1,11 @@
 package gui.controller;
 
-import gui.controller.GuiController;
+import gui.controller.GUIAppController;
 
 public class GuiRunner {
 	
 	public static void main(String[] args) {
-		GuiController runner = new GuiController();
+		GUIAppController runner = new GUIAppController();
 		runner.start();
 		
 	}
